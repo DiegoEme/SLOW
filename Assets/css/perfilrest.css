@@ -1,0 +1,51 @@
+:root {
+  --clr-dark: #2a2a2e;
+  --clr-clear: #f2efe9;
+  --clr-accent: #fe4c4c;
+  --clr-back: black;
+  --clr-white: white;
+  --clr-grey: #acacac;
+}
+html {
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  background-color: var(--clr-dark);
+}
+
+.navbar {
+  background-color: var(--clr-dark);
+}
+
+.navbar-brand {
+  color: var(--clr-accent);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: var(--clr-clear);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: var(--clr-grey);
+}
+
+.foto-perfil {
+  border-radius: 50%;
+}
+
+.nombre-rest {
+  color: var(--clr-clear);
+}
+.direccion {
+  color: var(--clr-clear);
+}
+
+.btn {
+  background-color: var(--clr-accent);
+  color: var(--clr-clear);
+  border: none;
+}
+.btn:hover {
+  background-color: red;
+}

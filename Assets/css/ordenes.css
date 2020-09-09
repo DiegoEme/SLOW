@@ -1,0 +1,87 @@
+:root {
+  --clr-dark: #2a2a2e;
+  --clr-clear: #f2efe9;
+  --clr-accent: #fe4c4c;
+  --clr-back: black;
+  --clr-white: white;
+  --clr-grey: #acacac;
+}
+html {
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  background-color: var(--clr-dark);
+}
+
+/**** NAVBAR ****/
+.navbar {
+  background-color: var(--clr-dark);
+}
+
+.navbar-brand {
+  color: var(--clr-accent);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: var(--clr-clear);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: var(--clr-grey);
+}
+
+/**** TITULO MENU *****/
+
+.titulo {
+  color: var(--clr-clear);
+}
+
+/**** BOTON AGREGAR ****/
+.btn {
+  background-color: var(--clr-accent);
+  color: var(--clr-clear);
+  border: none;
+}
+.btn:hover {
+  background-color: red;
+}
+.btn {
+  background-color: var(--clr-accent);
+  color: var(--clr-clear);
+  border: none;
+}
+.btn:hover {
+  background-color: red;
+}
+
+.descripcion {
+  color: var(--clr-clear);
+}
+.fa-check-square {
+  color: var(--clr-clear);
+  font-size: 2em;
+}
+
+.tarjeta {
+  width: 60%;
+}
+
+.card > .card-body {
+  padding: 0.5em 0.1em;
+}
+
+.nombre-plato,
+.descripcion,
+.precio {
+  color: var(--clr-dark);
+}
+
+.fa-check-square {
+  color: var(--clr-accent);
+}
+
+.fa-check-square:hover {
+  color: red;
+  transform: translateY(-5px);
+}
