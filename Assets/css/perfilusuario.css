@@ -49,3 +49,7 @@ body {
 .btn:hover {
   background-color: red;
 }
+
+.fa-whatsapp {
+  color: greenyellow;
+}

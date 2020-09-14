@@ -74,8 +74,7 @@ body {
 }
 
 .nombre-plato,
-.descripcion,
-.precio {
+.descripcion {
   color: var(--clr-dark);
 }
 
@@ -86,6 +85,10 @@ body {
 .fa-trash-alt:hover {
   color: red;
   transform: translateY(-5px);
+}
+
+.donar {
+  font-size: 1.3em;
 }
 
 /* @media screen and (max-width: 768px) {

@@ -15,10 +15,8 @@ body {
 }
 .title {
   color: var(--clr-accent);
-  /* font-family: "Comfortaa", cursive; */
-  font-family: "Kufam", cursive;
-  font-size: 10em;
-  margin-top: 0.3em;
+  font-family: "Comfortaa", cursive;
+  font-size: 12em;
 }
 .subtitle {
   color: var(--clr-clear);
@@ -53,7 +51,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 5em;
+    font-size: 6em;
     margin-top: 0.5em;
   }
   .subtitle {
@@ -100,4 +98,47 @@ a:hover {
 a:active {
   color: var(--clr-dark);
   text-decoration: none;
+}
+
+/****BOOTSTRAP CARDS ****/
+
+/* 
+.page {
+  background-color: #dfe6e0;
+  padding: 2%;
+  margin: auto;
+} */
+
+.card .card-body .card-title {
+  color: var(--clr-clear);
+}
+.card-img-top {
+  width: 90%;
+  height: 225px;
+}
+
+.view {
+  background-color: #343a40;
+  padding: 10px;
+  margin: 20px 40px;
+}
+
+.card {
+  width: 95%;
+  padding: 0px;
+  margin-left: 2%;
+}
+
+.card-footer {
+  background-color: var(--clr-accent);
+  font-weight: 700;
+  height: 50px;
+}
+.card-footer:hover {
+  cursor: pointer;
+}
+
+.price {
+  color: var(--clr-light);
+  font-weight: 600;
 }

@@ -34,11 +34,14 @@ body {
   border-radius: 50%;
 }
 
-.nombre-rest {
-  color: var(--clr-clear);
-}
+.nombre-rest,
+.sobre-mi,
 .direccion {
   color: var(--clr-clear);
+}
+
+.fa-whatsapp {
+  color: greenyellow;
 }
 
 .btn {
